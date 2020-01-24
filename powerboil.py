@@ -32,7 +32,7 @@ class colors:
 def select_dir():
     while(True):
  
-        DIR = list(os.listdir())
+        DIR = list(os.listdir('./'))
         print(colors.red, " 1) Select the directoy you want  to  create your Project \n  2) Press '*' to create a new directory \n 3) To create in Current Directory Press #")
         print(colors.reset)    
         for index, dirs in enumerate(DIR):
